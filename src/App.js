@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Cart from './Components/Cart/Cart';
 import Header from './Components/Layout/Header';
 import Meals from './Components/Meals/Meals';
+import Whatsapp from './Components/Whatsapp/Whatsapp';
 import CartProvider from './store/CartProvider';
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
      <main>
        <Meals/>
      </main>
+     <Whatsapp/>
      </CartProvider>
   );
 }
